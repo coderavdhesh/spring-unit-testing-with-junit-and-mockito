@@ -15,7 +15,7 @@ public class ItemBusinessService {
 	private ItemRepository repository;
 	
 	public Item retreiveHardcodedItem() {
-		return new Item(1, "Ball", 10, 100);
+		return new Item(1, "Hall", 10, 10000);
 	}
 	
 	public List<Item> retrieveAllItems() {
